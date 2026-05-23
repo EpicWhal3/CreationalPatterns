@@ -4,5 +4,5 @@ namespace Itmo.ObjectOrientedProgramming.Contracts;
 
 public interface IPrototype<T> where T : IPrototype<T>
 {
-    T Clone(User author);
+    public T Clone(User author);
 }
